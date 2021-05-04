@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- title -->
+    <title>The Color Matrix</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        div {
+            background-color: white;
+        }
+        td {
+            width: 12px;
+            height: 12px;
+        }
+    </style>
+
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- Button to prompt user to input value for shape size -->
+        <h1>The Color Matrix</h1>
+        <form action="javascript:createColorTable()" name="myform">
+            Rows:
+            <input type="text" name="rows"><p></p>
+            Columns:
+            <input type="text" name="columns"><p></p>
+            <input type="submit" value="submit">
+        </form>
+        <p></p>
+        <div id="tableMessage"></div>
+
+        <!--footer with hyperlink, year, and name-->
+        <p></p>
+        <p></p>
+        <footer>
+            All Photos taken from <a href="https://www.unsplash.com">Unsplash</a>
+            <br>&copy;2021 Charles Owens
+        </footer>
+    </div>
+</body>
+
+</html>
